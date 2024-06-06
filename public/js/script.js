@@ -48,6 +48,8 @@ const bottle1 = {
   
   const date = new Date();
   date.getDay();
+
+
   
   // If/Else
 //   const age = 18
@@ -62,4 +64,46 @@ const bottle1 = {
     console.log('We did it', i);
   }
   
+  // Functions
+// Defining a function
+function login(username,password) {
+  // Validate username and password
+  if (!username || !password) {
+    return 'Username or password not provided'
+  }
+  // Verify username and password
+  if (username == 'rilian' && password == '1234') {
+    return 'user is logged in'
+  } else {
+    return 'Invalid username or password'
+  }
+}
+// Invoking a function
+login('rilian', );
+
+
+
+// Basic Arithmetic Operations
+11 + 12;
+1 + 0.5;
+43 - 12;
+45 / 7;
+5 * 3;
+14 % 3;
+
+Math.floor(45 / 24);
+45 % 24
+Math.random() * 1000;
+Math.max(34,32,37)
+
+
+
+
+
+
+
+
+
+
+
   
