@@ -18,7 +18,7 @@ const person = {
     child: {
         name: 'joli',
         friend: {
-            name: 'jeli',.-[8709]
+            name: 'jeli'
         }
     }
 }
@@ -99,9 +99,9 @@ Math.max(34,32,37)
 
 // Strings in Javascript
 // Concatenation
-const firstname = 'Lilian';
-const lastname = 'Ziwu';
-const middlename = 'Awo';
+const firstName = 'Lilian';
+const lastName = 'Ziwu';
+const middleName = 'Awo';
 firstname +  ' ' + middlename + ' ' + lastname;
 // Template literal
 
@@ -109,7 +109,7 @@ firstname +  ' ' + middlename + ' ' + lastname;
 
 // String Methods
 
-let fullName = 'lilian Ziwu'
+let fullname = 'lilian Ziwu'
 fullName.length
 fullName.toUpperCase()
 fullName.toLowerCase()
@@ -127,24 +127,3 @@ let amount = 18000
 console.log(`GhS${amount}`)
 amount.toString()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
