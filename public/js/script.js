@@ -97,6 +97,47 @@ Math.random() * 1000;
 Math.max(34,32,37)
 
 
+// Strings in Javascript
+// Concatenation
+const firstname = 'Lilian';
+const lastname = 'Ziwu';
+const middlename = 'Awo';
+firstname +  ' ' + middlename + ' ' + lastname;
+// Template literal
+
+`${firstname} ${middlename} ${lastname}`;
+
+// String Methods
+
+let fullName = 'lilian Ziwu'
+fullName.length
+fullName.toUpperCase()
+fullName.toLowerCase()
+fullName.charAt(3)
+fullName.slice(0,6)
+fullName.split("")
+fullName.replace("lilian" ,"Joli")
+fullName.indexOf("ian")
+
+// string conversion
+Number("3.243")
+parseInt("3.243")
+parseFloat("3.243")
+let amount = 18000
+console.log(`GhS${amount}`)
+amount.toString()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
