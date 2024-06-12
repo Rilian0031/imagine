@@ -164,6 +164,63 @@ const users =[
   }
 ]
 
+// // Write a function that will take a user with firstname, lastname and return fullname;
+
+
+// Array Methods in JavaScript
+
+
+function fullName(user) {
+  return {
+    ...user,
+      fullName: `${user.firstname} ${user.lastname}`
+  };
+}
+
+
+const user = {
+firstname: 'Blac',
+lastname: 'Drax'
+}
+fullName (user);
+
+
+// Array map
+const users = [
+{firstname: 'Blac', lastname: 'Monster'},
+{firstname: 'Opiod', lastname: 'Grinder'},
+{firstname: 'lopiod', lastname: 'Under'},
+{firstname: 'Above', lastname: 'Joestar'},
+{firstname: 'Luffy', lastname: 'Perndrakon'},
+]
+
+
+users.map(fullName);
+
+
+// Square of Numbers
+
+
+function square (number) {
+return number ** 2;
+}
+
+
+square(9)
+
+
+const numbers = [9,6,3,8,5];
+numbers.map(square)
+
+
+// Array filter
+function isEven(number) {
+return number % 2 === 0;
+}
+
+
+isEven(9)
+numbers.filter(isEven);
 
 
 
