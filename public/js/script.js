@@ -149,20 +149,20 @@ addParticipant();
 participants;
 
 
-// Arrays in Javascript
-const users =[
-  {
-    username: 'rilian',
-    password: '8956',
-    email:'rilian0031@gmail.com'
+// // Arrays in Javascript
+// const users =[
+//   {
+//     username: 'rilian',
+//     password: '8956',
+//     email:'rilian0031@gmail.com'
     
-  },
-  {
-  username: 'rilijoli',
-    password: '69655',
-    email:'rilian0031@gmail.com'
-  }
-]
+//   },
+//   {
+//   username: 'rilijoli',
+//     password: '69655',
+//     email:'rilian0031@gmail.com'
+//   }
+// ]
 
 // // Write a function that will take a user with firstname, lastname and return fullname;
 
@@ -221,6 +221,35 @@ return number % 2 === 0;
 
 isEven(9)
 numbers.filter(isEven);
+
+// const user = {
+//   email: 'kokomoney@gmail.com',
+//   password: '1234'
+// }
+
+function resetPassword(email, newPassword){
+// Check if email and new password was provided
+  if (!email || !newPassword){
+    return 'Email or password not provided';
+  }
+  // 
+  if (email === user.email){
+    user.password =newPassword;
+    return 'Password reset successful'
+  }
+
+// Check if provided email is correct
+if (email !== user.email) {
+  return 'Incorrect email'
+}
+  
+}
+
+
+user;
+resetPassword('kokomoney@gmail.com', 6790);
+user;
+
 
 
 
